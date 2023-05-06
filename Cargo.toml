@@ -1,0 +1,23 @@
+[package]
+name = "signatures"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "secp256k1_lib"
+path = "secp256k1_lib/src/lib.rs"
+
+[dependencies]
+clap = "4.2.1"
+num = "0.4.0"
+num-bigint = "0.4.3"
+num-traits = "0.2.15"
+substring = "1.4.5"
+thiserror = "1.0.40"
+sha3 = "0.10.6"
+hex-literal = "0.4.0"
+ethereum-types = "0.14.1"
+hex = "0.4.3"
+secp256k1 = "0.27.0"
+rand = "0.8.5"
